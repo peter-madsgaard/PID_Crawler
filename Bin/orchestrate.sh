@@ -1,9 +1,9 @@
 #!/bin/bash
 
 export file_time_append=$(date +%Y%m%d_%H%M%S)
-export file_time_append="20240611_153000"  # for testing
+#export file_time_append="20240611_153000"  # for testing
 
-export base_dir='/Users/peter/Documents/PID_Crawler'
+export base_dir="$(pwd)"
 
 # generate_process_chains.sh
 export base_chain_outfile="$base_dir/process_chains_$file_time_append.csv"
