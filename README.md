@@ -16,7 +16,7 @@ Generate report of resource usage for complex process trees in macOS and Linux t
   - PID count
   - list of users
   - list of commands
-3. classify_commands.sh
+3. classify_commands.sh (**Note: Comment this out of orchestrate.sh if not using the model**)
 - for each command, trigger classify_command.py
 - classiy_command.py sends command into model that predicts command category
 
