@@ -35,7 +35,7 @@ Generate report of resource usage for complex process trees in macOS and Linux t
 
 
 ```TEXT
-DAG:
+pseudo-DAG:
 
 PID_Crawler/
 ├── Bin/
